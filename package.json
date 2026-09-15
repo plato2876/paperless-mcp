@@ -1,6 +1,6 @@
 {
   "name": "@baruchiro/paperless-mcp",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Model Context Protocol (MCP) server for interacting with Paperless-NGX document management system. Enables AI assistants to manage documents, tags, correspondents, and document types through the Paperless-NGX API.",
   "main": "build/index.js",
   "bin": {
@@ -48,7 +48,6 @@
     "axios": "^1.20.0",
     "express": "^5.1.0",
     "form-data": "^4.0.2",
-    "typescript": "^5.8.3",
     "zod": "~4.4.3"
   },
   "devDependencies": {
@@ -56,6 +55,7 @@
     "@changesets/cli": "^2.29.4",
     "@types/express": "^5.0.2",
     "@types/node": "^24.0.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
